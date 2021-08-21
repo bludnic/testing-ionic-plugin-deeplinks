@@ -49,10 +49,17 @@ const IonicDeeplinksPage: NextPage = () => {
 
     return (
         <Container className={classes.root}>
-            <Typography variant="h2">Deeplinks</Typography>
+            <Typography variant="h2">Testing Ionic Deeplinks Plugin</Typography>
             <Typography variant="subtitle1">
                 This plugin handles deeplinks on iOS and Android for both custom
                 URL scheme links and Universal App Links.
+                <br />
+                <a
+                    href="https://github.com/ionic-team/ionic-plugin-deeplinks"
+                    target="_blank"
+                >
+                    https://github.com/ionic-team/ionic-plugin-deeplinks
+                </a>
             </Typography>
 
             <Grid className={classes.gridContainer} container spacing={3}>
