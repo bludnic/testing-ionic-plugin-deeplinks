@@ -57,6 +57,7 @@ const IonicDeeplinksPage: NextPage = () => {
                 <a
                     href="https://github.com/ionic-team/ionic-plugin-deeplinks"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     https://github.com/ionic-team/ionic-plugin-deeplinks
                 </a>
@@ -75,9 +76,9 @@ const IonicDeeplinksPage: NextPage = () => {
                         label="URL_SCHEME"
                         helperText={
                             <>
-                                the custom URL scheme you'd like to use for your
-                                app. This lets your app respond to links like{' '}
-                                <code>myapp://blah</code>
+                                the custom URL scheme you&apos;d like to use for
+                                your app. This lets your app respond to links
+                                like <code>myapp://blah</code>
                             </>
                         }
                         fullWidth
@@ -92,9 +93,10 @@ const IonicDeeplinksPage: NextPage = () => {
                         helperText={
                             <>
                                 the scheme to use for universal/app links.
-                                Defaults to 'https' in 1.0.13. 99% of the time
-                                you'll use <code>https</code> here as iOS and
-                                Android require SSL for app links domains.
+                                Defaults to &apos;https&apos; in 1.0.13. 99% of
+                                the time you&apos;ll use <code>https</code> here
+                                as iOS and Android require SSL for app links
+                                domains.
                             </>
                         }
                         fullWidth
@@ -111,7 +113,7 @@ const IonicDeeplinksPage: NextPage = () => {
                                 the host that will respond to deeplinks. For
                                 example, if we want{' '}
                                 <code>example.com/product/cool-beans</code> to
-                                open in our app, we'd use{' '}
+                                open in our app, we&apos;d use{' '}
                                 <code>example.com</code> here.
                             </>
                         }
@@ -131,6 +133,7 @@ const IonicDeeplinksPage: NextPage = () => {
                                 <a
                                     href="https://developer.android.com/guide/topics/manifest/data-element.html"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     more info
                                 </a>
